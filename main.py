@@ -127,6 +127,10 @@ data = {
     "value": get_birthday_left(),
     "color": get_random_color()
   },
+    "birthday2_left": {
+    "value": get_birthday2_left(),
+    "color": get_random_color()
+  },
   "words": {
     "value": get_words(),
     "color": get_random_color()
