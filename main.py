@@ -10,6 +10,7 @@ today = datetime.now() + timedelta(hours=8)
 start_date = os.getenv('START_DATE')
 city = os.getenv('CITY')
 birthday = os.getenv('BIRTHDAY')
+birthday2 = os.getenv('BIRTHDAY2')
 
 app_id = os.getenv('APP_ID')
 app_secret = os.getenv('APP_SECRET')
