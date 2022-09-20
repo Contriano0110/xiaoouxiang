@@ -50,6 +50,13 @@ def get_memorial_days_count():
   delta = today - datetime.strptime(start_date, "%Y-%m-%d")
   return delta.days
 
+def get_memorial_days2_count():
+  if start_date2 is None:
+    print('没有设置 START_DATE2')
+    return 0
+  delta2 = today - datetime2.strptime(start_date2, "%Y-%m-%d")
+  return delta2.days
+
 # 生日倒计时
 def get_birthday_left():
   if birthday is None:
